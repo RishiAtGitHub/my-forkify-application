@@ -7,7 +7,8 @@
   "type": "commonjs",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "precommit": "rm -rf .parcel-cache"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.15.2",

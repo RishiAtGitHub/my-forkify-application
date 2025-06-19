@@ -5,9 +5,10 @@
   "license": "ISC",
   "author": "Rishi Raj Saha",
   "type": "commonjs",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --dist-dir ./dist",
     "precommit": "rm -rf .parcel-cache"
   },
   "devDependencies": {
